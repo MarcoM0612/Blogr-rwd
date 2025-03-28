@@ -1,8 +1,15 @@
 html {
     font-size: 62.5%; /** 16px * 0.625 = 10px conversion en base 10 */
 }
-
 body {
     background-color: pink;
     font-size: 1.4rem; /** 14px; */ 
 }
+
+.container {
+    border: 2px dotted blue;
+    max-width: 96vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/** Media Queries*/ 
