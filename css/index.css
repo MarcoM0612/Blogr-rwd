@@ -96,22 +96,23 @@ body {
     max-height: 100vh;
     height: 100vh;
 }
-/**Section2*/
-.container1 {
-    height: 40rem;
-    background-color: white;
+/**Main: Section Call to Action */
+.section-call-to-action {
+    background-color: var(--Sunset-Orange);
+    display: flex;
+    height: 44rem;
+    border-radius: 0 0 0 12rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-.title {
-    height: 20%;
+.buttons {
     display: flex;
     justify-content: center;
-}
-.content {
-    height: 80%;
-    display: flex;
-}
-.image-1 img {
-    height: 30rem;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 4rem 0;
 }
 
 /**footer*/
