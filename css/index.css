@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --Sunset-Orange:#fe5c5f;
     --whith:#ffffff;
@@ -17,6 +18,7 @@ html {
 }
 body {
     font-size: 1.4rem; /** 14px; */ 
+    font-family: "Inter", sans-serif;
 }
 .main-conntainer {
     max-height: 100vh;
@@ -31,12 +33,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 8rem;
+    height: 8rem;
+}
+.logo-site {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
 }
 .navbar__center {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+}
+.icon-hamburger {
+    color: white;
+    font-size: 2.4rem;
 }
 .navbar__right {
     display: none;
@@ -57,11 +71,24 @@ body {
     display: none;
 }
 .btn {
-    border: 1px solid yellow;
+    border: 1px solid transparent;
     padding: .6rem 1.2rem;
     box-sizing: border-box;
     text-decoration: none;
     border-radius: 1.5rem;
+}
+.btn-primary {
+    background-color: white;
+    border: 1px solid white;
+    color: var(--Sunset-Orange);
+}
+.btn-outline-primary {
+    border: 1px solid white;
+    color: white;
+}
+.btn.btn-secondary {
+    border: 1px solid transparent;
+    color: white;
 }
 /** main*/
 .main {
@@ -71,7 +98,7 @@ body {
 }
 /**Section2*/
 .container1 {
-    height: 400px;
+    height: 40rem;
     background-color: white;
 }
 .title {
@@ -80,8 +107,8 @@ body {
     justify-content: center;
 }
 .content {
-    display: flex;
     height: 80%;
+    display: flex;
 }
 .image-1 img {
     height: 30rem;
@@ -93,14 +120,14 @@ body {
 }
 
 .container {
-    border: 2px dotted blue;
+    /*border: 2px dotted blue;*/
     max-width: 96vw;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 .8rem;
 }
 .container-fluid {
-    border: 2px dotted orange;
+    /*border: 2px dotted orange;*/
     max-width: 100vh;
     margin: 0 auto;
     box-sizing: border-box;
@@ -119,8 +146,15 @@ body {
         max-width: 72rem;
         padding: 0 2.4rem;
     }
+    .nabar__left {
+        flex-basis: 14rem;
+    }
+    .navbar__center {
+        flex-grow: 1;
+    }
     .navbar__right {
         display: block;
+        flex-basis: 15rem;
     }
     .menu-main {
         list-style: none;
