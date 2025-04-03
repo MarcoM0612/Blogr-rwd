@@ -61,16 +61,24 @@
             </section>
             <section class="section-designed-for-the-future section">
                 <div class="container">
+                    <h2>Designer for the future</h2>
                     <div class="content-designed-for-the-future">
-                        <h2>Designer for the future</h2>
                         <div class="section-1">
+                            <!-- forma de colocar imagenes autoajustables de diferentes fuentes(varias imagenes) -->
+                            <picture>
+                                <source media="(max-width: 567px)" srcset="./img/illustration-editor-mobile.png" />
+                                <source media="(min-width: 768px)" srcset="./img/illustration-editor-desktop.svg" />
+
+                                <img class="img img-designer-for-the-future" src="./img/illustration-editor-mobile.png" alt="Image: Illustration Edition Desktop" />
+                              </picture>
+                              <!-- forma convencional de cargar imagenes -->
+                            <!-- <img class="img img-designer-for-the-future" src="./img/illustration-editor-mobile.svg" alt="Image Ilustration editor Desktop"> -->
+                        </div>
+                        <div class="section-2">
                             <h3>Introduciong an extensible editor</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere inventore, doloremque veritatis incidunt molestiae dicta vel et, provident architecto, aliquam quasi excepturi cupiditate fugit harum.</p>
                             <h3>Robust content management</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sapiente ipsum? Voluptas porro fuga consequuntur nulla distinctio! Commodi, dolorum veritatis?</p>
-                        </div>
-                        <div class="section-2">
-                            <img src="./img/illustration-editor-desktop.svg" alt="Image Ilustration editor Desktop">
                         </div>
                     </div>
                 </div>
@@ -78,6 +86,7 @@
         </main>
         <footer class="footer">
             <div class="container">
+                hola aqui estoy
                 <!-- TODO: Revisar el comportamiento del pie de pagina que se desacopla cuando el main posee contenido. -->
             </div>
         </footer>

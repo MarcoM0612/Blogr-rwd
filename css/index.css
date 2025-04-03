@@ -19,6 +19,7 @@ html {
 body {
     font-size: 1.4rem; /** 14px; */ 
     font-family: "Inter", sans-serif;
+    text-align: center;
 }
 .main-conntainer {
     max-height: 100vh;
@@ -93,8 +94,6 @@ body {
 /** main*/
 .main {
     flex-grow: 1;
-    max-height: 100vh;
-    height: 100vh;
 }
 /**Main: Section Call to Action */
 .section-call-to-action {
@@ -114,6 +113,35 @@ body {
     gap: 1.4rem;
     margin: 4rem 0;
 }
+/* Main: Section designed for the future */
+.content-designed-for-the-future {
+    margin: 9rem 0;
+}
+.img-designer-for-the-future {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+.content-designed-for-the-future p {
+    text-align: left;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+.section-2 {
+    width: 84%;
+    margin: 0 auto;
+}
+
+@media (min-width: 567px) {}
+@media (min-width: 768px) {
+    .content-designed-for-the-future {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 /**footer*/
 .footer {
@@ -147,6 +175,7 @@ body {
         max-width: 72rem;
         padding: 0 2.4rem;
     }
+    /**Header*/
     .nabar__left {
         flex-basis: 14rem;
     }
@@ -168,8 +197,13 @@ body {
     .icon-hamburger {
         display: none;
     }
-    
 }
+/**Main Section Designer for the future*/
+.section-1,
+.section-2 {
+    flex: 1;
+}
+
 @media ( min-width: 992px ) {
     .container {
         max-width: 98rem;
