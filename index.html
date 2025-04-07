@@ -21,10 +21,10 @@
                             <li class="menu-item item item1">
                                 <a class="menu-link link link-1 btn btn-secondary" href="#">Product</a>
                             </li>
-                            <li class="menu-item item item2">
+                            <li class="menu-item item item-2">
                                 <a class="menu-link link link-2 btn btn-secondary" href="#">Company</a>
                             </li>
-                            <li class="menu-item item item3">
+                            <li class="menu-item item item-3">
                                 <a class="menu-link link link-3 btn btn-secondary" href="#">connect</a>
                             </li>
                         </ul>
@@ -47,8 +47,9 @@
             </div>
         </header>
         <main class="main">
+            <!-- Seccion Principal -->
             <section class="section-call-to-action section">
-                <div class="container container-call-to-action">
+                <div class="container">
                     <div class="content-call-to-action">
                         <h1>A modern publishing platform</h1>
                         <p>Grow your audience and build your online brand</p>
@@ -59,30 +60,33 @@
                     </div>
                 </div>
             </section>
+            <!-- Seccion: Designed for the future -->
             <section class="section-designed-for-the-future section">
                 <div class="container">
                     <h2>Designer for the future</h2>
                     <div class="content-designed-for-the-future">
-                        <div class="designed-for-the-future section-1">
+                        <div class="section-1">
                             <!-- forma de colocar imagenes autoajustables de diferentes fuentes(varias imagenes) -->
                             <picture>
                                 <source media="(max-width: 567px)" srcset="./img/illustration-editor-mobile.png" />
                                 <source media="(min-width: 768px)" srcset="./img/illustration-editor-mobile.png" />
 
                                 <img class="img img-designer-for-the-future" src="./img/illustration-editor-mobile.png" alt="Image: Illustration Edition Desktop" />
-                              </picture>
-                              <!-- forma convencional de cargar imagenes -->
+                            </picture>
+                            <!-- forma convencional de cargar imagenes -->
                             <!-- <img class="img img-designer-for-the-future" src="./img/illustration-editor-mobile.svg" alt="Image Ilustration editor Desktop"> -->
                         </div>
-                        <div class="designed-for-the-future section-2">
+                        <div class="section-2">
                             <h3>Introduciong an extensible editor</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere inventore, doloremque veritatis incidunt molestiae dicta vel et, provident architecto, aliquam quasi excepturi cupiditate fugit harum.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perspiciatis optio nihil, ad tenetur saepe nulla rem minima consequatur non aliquid autem cumque voluptate nesciunt illum unde quisquam dolor alias!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere inventore, doloremque veritatis incidunt molestiae dicta vel et, provident architecto, aliquam quasi excepturi cupiditate fugit harum.</p>
+
                             <h3>Robust content management</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sapiente ipsum? Voluptas porro fuga consequuntur nulla distinctio! Commodi, dolorum veritatis?</p>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- Seccin: state of the art -->
             <section class="section-state-of-the-art section">
                 <div class="container-fluid bg-jacarta">
                     <div class="content-state-of-the-art">
@@ -90,8 +94,28 @@
                             <img class="img img-state-of-the-art" src="./img/illustration-phones.svg" alt="illustration-Phones">
                         </div>
                         <div class="section-2">
+                            <div class="section-2-content">
                             <h2>State of the Art Infraestructure</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, totam ducimus. Corrupti soluta eligendi tempora, nisi sequi laboriosam ut alias iure minima architecto consequatur blanditiis nam quidem laborum odio voluptatum magni qui inventore ipsum earum.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion Free Open Simple -->
+            <section class="section-free-open-simple section">
+                <div class="container">
+                    <div class="content-free-open-simple">
+                        <div class="section-1">
+                            <img src="" alt="Illustration Laptop">
+                        </div>
+                        <div class="section-2">
+                            <h2>Free, Open, Simple</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique odit ut harum, nam dolorum minima dolore doloribus, iusto quos accusantium rerum error nobis, quas non quasi ab in mollitia consectetur labore iste hic magnam voluptate!</p>
+
+                            <h2>Powerful tooling</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci aut quis neque ratione cum veniam eum libero sit atque. Praesentium odit vero natus blanditiis maxime perspiciatis culpa repellat, illo quae!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,12 +123,48 @@
         </main>
         <footer class="footer">
             <div class="container">
-                hola aqui estoy
-                <!-- TODO: Revisar el comportamiento del pie de pagina que se desacopla cuando el main posee contenido. -->
+                <section class="pre-footer">
+                    <div class="widget widget-1">
+                        <a class="logo-footer" href="#">Blogr</a>
+                    </div>
+                    <div class="widget widget-2">
+                        <div class="title title-product">Product</div>
+                        <nav class="navbar navbar-product">
+                            <ul class="menu-product">
+                                <li class="menu-product__item item item-1"><a href="#">Overiveow</a></li>
+                                <li class="menu-product__item item item-2"><a href="#">Pricing</a></li>
+                                <li class="menu-product__item item item-3"><a href="#">Marketplace</a></li>
+                                <li class="menu-product__item item item-4"><a href="#">Features</a></li>
+                                <li class="menu-product__item item item-5"><a href="#">Integrations</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="widget widget-3">
+                        <div class="title">Company</div>
+                        <nav class="navbar navbar-company">
+                            <ul class="menu-company">
+                                <li class="menu-company__item item item-1"><a href="#">About</a></li>
+                                <li class="menu-company__item item item-2"><a href="#">Team</a></li>
+                                <li class="menu-company__item item item-3"><a href="#">Blog</a></li>
+                                <li class="menu-company__item item item-4"><a href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="widget widget-4">
+                        <div class="title">Connect</div>
+                        <nav class="navbar navbar-connect">
+                            <ul class="menu-connect">
+                                <li class="menu-connect__item item item-1"><a href="#">Contact</a></li>
+                                <li class="menu-connect__item item item-2"><a href="#">Newsletter</a></li>
+                                <li class="menu-connect__item item item-3"><a href="#">Linkedin</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
             </div>
         </footer>
     </div>
-    
+
 
     <script src="./js/script.js"></script>
 </body>
