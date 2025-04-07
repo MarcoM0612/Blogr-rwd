@@ -208,8 +208,18 @@ body {
 }
 
 /* Seccion Free Open Simple */
+.img-free-open-simple {
+    margin: 6rem 0;
+}
 
-
+.content-free-open-simple h2 {
+    margin-bottom: 3rem;
+}
+.content-free-open-simple p {
+    text-align: left;
+    line-height: 1.9rem;
+    margin-bottom: 8rem;
+}
 /**footer*/
 .footer {
     background-color: var(--Dark-Gunmetal);
@@ -223,7 +233,7 @@ body {
     flex-direction: column;
 }
 .widget {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     box-sizing: border-box;
     flex: 1;
 }
@@ -377,6 +387,26 @@ body {
 
     .content-state-of-the-art .section-2-content {
         margin-right: 10rem;
+    }
+    /* seccion Free Open Simple */
+    .content-free-open-simple {
+        display: flex
+    ;
+    }
+    .section-1-open {
+        width: 50%;
+    }
+    .img-free-open-simple {
+        margin: 0;
+        position: relative;
+        left: -17rem;
+        top: -4rem;
+        width: 54rem;
+        height: 43rem;
+    }
+    .content-free-open-simple p {
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
     }
     /* Seccion Fotter */
     .pre-footer {
