@@ -223,6 +223,7 @@ body {
 /**footer*/
 .footer {
     background-color: var(--Dark-Gunmetal);
+    padding-top: 5rem;
 }
 .pre-footer {
     color: var(--whith);
